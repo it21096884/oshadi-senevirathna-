@@ -302,9 +302,7 @@ export default function Home() {
           <a href="mailto:oshadi@gmail.com" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
             <FaEnvelope className="text-2xl text-gray-500" />
           </a>
-          <a href="https://discord.com/users/9811" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
-            <FaDiscord className="text-2xl text-gray-500" />
-          </a>
+          
         </motion.div>
       </section>
 
@@ -314,8 +312,8 @@ export default function Home() {
               {/* Left Section - About Text */}
               <div className="text-center md:w-1/2 md:text-left">
               <h3 className={`text-lg font-semibold ${darkMode ? "text-[#38534f]" : "text-purple-600"}`}>ABOUT</h3>
-                <h1 className="mt-2 text-4xl font-bold text-gray-10000">Who I Am</h1>
-                <p className="max-w-3xl mt-6 text-left text-l text-gray-10000 text-lg">
+                <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold `}>Who I Am</h1>
+                <p className= {`mt-4 ${darkMode ? "text-white" : "text-black"}  text-lg max-w-3xl mt-6 text-left text-l`}>
                  Hello! I'm Oshadi, a passionate and driven Software Engineering student with hands-on experience in full-stack development, mobile applications, and machine learning. I enjoy exploring new technologies and leveraging them to create innovative solutions that solve real-world problems.
 
                  With a strong foundation in React, Flutter, .NET, Node.js, and MongoDB, I have developed and deployed full-stack applications that enhance user experiences. <br/><br/>My expertise extends to machine learning and deep learning, where I have worked with CNN, XGBoost, and TensorFlow to build AI-driven models, including brain tumor classification and personalized recommendation systems.
@@ -431,7 +429,7 @@ export default function Home() {
     <h1 className="mb-12 text-4xl font-bold text-gray-900 dark:text-white">Let’s Connect</h1>
     <div className="text-center mb-12">
     
-      <p className="mt-4 text-lg max-w-2xl mx-auto text-gray-700 text-xl ">
+      <p className={`mt-4 ${darkMode ? "text-white" : "text-black"} text-xl text-lg max-w-2xl mx-auto `}>
         I’m always open to discussing new projects, ideas, or opportunities. Let’s chat!
       </p>
     </div>
