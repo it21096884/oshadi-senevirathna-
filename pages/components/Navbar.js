@@ -53,9 +53,9 @@ export default function Navbar() {
         >
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>
-      </div>
+      </div> 
     </nav>
-  
+  //end of nav
     
   );
 }
