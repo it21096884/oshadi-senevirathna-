@@ -3,12 +3,12 @@
 import { motion } from "framer-motion";
 import { useContext, useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaDiscord } from "react-icons/fa";
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import ThemeContext from "./context/ThemeContext";
-import { Card, CardContent } from './components/ui/card';
-import { Input } from './components/ui/input';
-import { Textarea } from './components/ui/textarea';
-import { Button } from './components/ui/button';
+import { Card, CardContent } from '../components/ui/card';
+import { Input } from '../components/ui/input'
+import { Textarea } from '../components/ui/textarea';
+import { Button } from '../components/ui/button';
 import { ThemeProvider, useTheme } from "next-themes";
 
 const CloudAnimation = () => {

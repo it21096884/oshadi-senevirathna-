@@ -2,7 +2,7 @@ import { useState, useEffect,useContext} from "react";
 import { Link } from "react-scroll";
 import { FaMoon, FaSun } from "react-icons/fa";
 import React from "react";
-import ThemeContext from "../context/ThemeContext";
+import ThemeContext from "../pages/context/ThemeContext";
 
 export default function Navbar() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
